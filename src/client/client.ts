@@ -44,6 +44,6 @@ function animate() {
 function render() {
   renderer.render(scene, camera);
 }
-
+// Avoid animation loop.
 // animate();
 render();
